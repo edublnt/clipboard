@@ -1,0 +1,282 @@
+html,body{
+    height: 100vh;
+    width:100%;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 17px;
+    font-family: Bai Jamjuree;
+}
+
+.clipboard_fondo{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.clipboard_fondo-mobile{
+    width: 100%;
+    height: 100%;
+}
+
+.clipboard_fondo-desktop{
+    display: none;
+}
+
+.clipboard_logo{
+    height: 90px;
+    margin: 95px;
+    position: relative;
+    z-index: 2;
+
+}
+
+.clipboard_logo-img{
+    height: 125px;
+}
+
+.clipboard_one{
+    text-align: center;
+    align-self: center;
+
+    gap: 20px;
+ 
+}
+
+.clipboard_one p:nth-child(1){
+    font-size: 30px;
+    margin: auto 25px 25px 25px;
+    opacity: 70%;
+}  
+
+.clipboard_one p:nth-child(2){
+    line-height: 30px;
+    margin: 18px;
+    color: hsl(210, 10%, 33%);
+    opacity: 50%;
+}
+
+.clipboard_buttons{
+
+    width: 310px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.clipboard_download-IOS{
+    font-size: 20px;
+    padding: 15px;
+
+    border-radius: 25px;
+    color: white;
+
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0 2px 10px  hsl(168, 52%, 39%);
+    border: 2px solid  hsl(168, 52%, 39%);
+    cursor: pointer;
+    
+}
+
+.clipboard_download-IOS:hover{
+    opacity: 85%;
+    transition: 0.2s ;
+
+}
+ 
+.clipboard_download-Mac{
+    font-size: 20px;
+    padding: 15px;
+
+    border-radius: 25px;
+    color: white;
+
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0 5px 15px hsl(233, 65%, 59%);
+    border: 2px solid hsl(233, 65%, 59%);
+
+    cursor: pointer;
+    font-family: bai;
+}
+
+.clipboard_download-Mac:hover{
+    opacity: 85%;
+    transition: 0.2s ;
+
+}
+
+.clipboard_two{
+    margin-top: 110px;
+    text-align: center;
+
+}
+
+.clipboard_two p:nth-child(1){
+    font-size: 30px;
+    opacity: 70%;
+}
+
+.clipboard_two p:nth-child(2){
+    line-height:30px ;
+    margin: 18px;
+    opacity: 50%;
+}
+
+.clipboard_unido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clipboard_iconpc{
+    height: auto;
+    margin: 50px;
+}
+
+.clipboard_iconpc-img2{
+    height: 250px;
+}
+
+.clipboard_tree{
+    text-align: center;
+
+}
+
+.clipboard_tree p:nth-child(2n+1){
+    font-size: 25px;
+    opacity: 70%;
+    margin: 10px 10px -5px 10px;
+}
+
+.clipboard_tree p:nth-child(2n){
+    line-height: 30px;
+    opacity: 50%;
+    margin: 10px 30px 30px 30px;
+
+}
+
+.clipboard_four{
+    text-align: center;
+    margin-top: 120px ;
+}
+
+.clipboard_four p:nth-child(1){
+    font-size:25px ;
+    margin: 25px;
+    opacity: 70%;
+}
+
+.clipboard_four p:nth-child(2){
+    line-height: 30px;
+    margin: 10px 25px 25px 25px;
+    opacity: 50%;
+}
+
+.clipboard_icondevice{
+    margin: 25px;
+}
+
+.clipboard_icondevice-img3{
+    height: 225px;
+    margin: 20px;
+}
+
+.clipboard_five{
+    text-align: center;
+}
+
+.clipboard_five p:nth-child(1){
+    font-size:25px ;
+    margin: 30px 30px 10px 30px;
+    opacity: 70%;
+}
+
+.clipboard_five p:nth-child(2){
+    margin: 10px 25px 25px 25px;
+    line-height: 30px;
+    opacity: 50%;
+}
+
+.clipboard_six{
+    text-align: center;
+}
+
+.clipboard_six img{
+    margin: 80px auto 20px auto ;
+}
+
+.clipboard_six p:nth-child(2n){
+    margin: 20px;
+    font-size: 25px;
+    opacity: 70%;
+}
+
+.clipboard_six p:nth-child(2n+1){
+    line-height: 30px;
+    opacity: 50%;
+    margin: 5px 24px 25px 24px;
+}
+
+.clipboard_seven{
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clipboard_seven img{
+    margin: 50px;
+}
+
+.clipboard_eighth{
+    text-align: center;
+}
+
+.clipboard_eighth p:nth-child(1){
+    font-size: 30px;
+    margin: 35px;
+    opacity: 70%;
+}
+
+.clipboard_eighth p:nth-child(2){
+    margin: 25px;
+    line-height: 30px;
+    opacity: 50%;
+}
+
+.clipboard_nine{
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color:hsl(220, 18%, 97%);
+}
+
+.clipboard_nine-logo img{
+    height: 50px;
+    margin: 50px auto 20px auto;
+}
+
+.clipboard_nine-citas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clipboard_nine-sociales{
+    height: 25px;
+    margin: 50px;
+    display: flex;
+    gap: 35px;
+}

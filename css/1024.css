@@ -1,0 +1,219 @@
+.clipboard_fondo-desktop{
+    width: 100%;
+    height: 100%;
+
+    background-image: url(../images/bg-header-desktop.png);
+    background-repeat:no-repeat ;
+    background-size: 100% 50%; 
+    
+    display: flex;
+}
+
+.clipboard_logo{
+    margin: 120px;
+}
+
+.clipboard_fondo-mobile{
+    display: none;
+}
+
+.clipboard_one p:nth-child(1){
+    font-size: 40px;
+}
+
+.clipboard_one p:nth-child(2){
+    margin: 18px 18% 20px 18%;
+    opacity: 40%;
+}
+
+.clipboard_buttons{
+    display: flex;
+    flex-direction: row;
+
+    width: auto;
+    margin: 40px;
+}
+
+.clipboard_download-IOS{
+    width: 300px;
+}
+
+.clipboard_download-Mac{
+    width: 300px;
+}
+
+.clipboard_two p:nth-child(1){
+    font-size: 34px;
+}
+
+.clipboard_two p:nth-child(2){
+    margin: 20px 26%;
+    opacity: 40%;
+}
+
+.clipboard_unido{
+    display: flex;
+    flex-direction: row;
+
+    margin-right: 67px;
+    width: 100%;
+
+    gap: 111px;
+}
+
+.clipboard_iconpc{
+    margin: 50px 0px 50px 0px;
+
+    height: auto;
+    width: 53%;
+
+    max-width: 1300px;
+    min-width: 545px;
+}
+
+.clipboard_iconpc-img2{
+    height: 95%;
+    width: 95%;
+
+}
+
+.clipboard_tree{
+    height: auto;
+    max-width: 100%;    
+
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.clipboard_tree p:nth-child(2n+1){
+    font-size: 18px;
+    margin: 10px 10px -5px 0px;
+}
+
+.clipboard_tree p:nth-child(2n){
+    font-size: 14px;
+    margin: 10px 71px 30px 0px;
+    width: 300px;
+}
+
+.clipboard_four p:nth-child(1){
+    font-size: 34px;
+}
+
+.clipboard_four p:nth-child(2){
+    margin: 10px 10% 25px 10%;
+    opacity: 40%;
+}
+
+.clipboard_icondevice-img3{
+    height: 500px;
+}
+
+.clipboard_five p:nth-child(1){
+    font-size: 34px;
+}
+
+.clipboard_five p:nth-child(2){
+    margin: 25px;
+    opacity: 40%;
+}
+
+.clipboard_six{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.clipboard_six-blacklist{
+    height: auto;
+    width: 315px;
+}
+
+.clipboard_six-text{
+    height: auto;
+    width: 315px;
+}
+
+.clipboard_six-preview{
+    height: auto;
+    width: 320px;
+}
+
+.clipboard_six p:nth-child(2n){
+    margin: 0;
+}
+
+.clipboard_six p:nth-child(2n+1){
+    font-size: 14px;
+    opacity: 40%;
+    margin: 0;
+}
+
+.clipboard_seven{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    margin: 100px;
+}
+
+.clipboard_seven img{
+    margin: 30px;
+}
+
+.clipboard_eighth p:nth-child(1){
+    font-size: 34px;
+}
+
+.clipboard_eighth p:nth-child(2){
+    width: 635px;
+    opacity: 40%;
+}
+
+.clipboard_nine{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.clipboard_nine-logo{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.clipboard_nine-logo img{
+    margin: auto;
+}
+
+.clipboard_nine-citas{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+    height: 110px;
+    width: 600px;
+}
+
+.clipboard_nine-citas p:hover{
+    cursor: pointer;
+    color: hsl(171, 66%, 44%);
+}
+
+.clipboard_nine-sociales{
+    cursor: pointer;
+}
+
+.clipboard_nine-sociales--twitter:hover {
+    filter: invert(32%) sepia(98%) saturate(5181%) hue-rotate(170deg) brightness(98%) contrast(123%);
+  }
+  
